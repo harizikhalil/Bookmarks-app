@@ -1,0 +1,143 @@
+body {
+  background: #c9ccd3;
+  background-image: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  margin: 0;
+  padding: 0;
+}
+.add-btn {
+  margin: 15px 0px 10px 950px;
+  background-color: rgb(4, 136, 136);
+  color: white;
+}
+
+.bookmarks-list {
+  max-width: 1100px;
+  margin: auto;
+  border-radius: 7px;
+  padding: 15px;
+  background-color: white;
+}
+nav {
+  margin-left: 95px;
+  margin-top: 7px;
+}
+.bookmarks-item {
+  list-style: none;
+  border: 3px solid rgb(248, 245, 241);
+  padding: 15px;
+  margin-bottom: 7px;
+  border-radius: 7px;
+  background-color: rgb(223, 222, 222);
+  height: 210px;
+}
+.bookmarks-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+}
+.bookmarks-info {
+  display: flex;
+  width: 700px;
+  height: 100px;
+}
+.bookmar-details {
+  margin-left: 7px;
+}
+.bookmark-option button {
+  margin-left: 10px;
+}
+p {
+  margin-bottom: 2px;
+}
+button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+.delete-btn {
+  background-color: rgb(238, 71, 71);
+  color: white;
+}
+i {
+  margin-right: 5px;
+}
+.update-btn {
+  background-color: rgb(236, 206, 150);
+  color: white;
+}
+/********* add_bookmark_css *********/
+
+.add-form {
+  padding: 30px;
+}
+.inputfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.inputfield label {
+  width: 55px;
+  color: #494949;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.upload-bookmark input {
+  width: 70%;
+}
+
+.upload-bookmark button {
+  width: 30%;
+  background-color: rgb(105, 160, 241);
+  color: white;
+  border-radius: 0px;
+  padding: 3px;
+}
+.btn-add-bookmarks {
+  background-color: rgb(4, 136, 136);
+  color: white;
+}
+
+.btn-update-bookmark {
+  background-color: rgb(236, 206, 150);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+}
+span {
+  margin-right: 8px;
+}
+.confirm-delete {
+  padding: 20px;
+  text-align: center;
+}
+.confirm-option .btn-confirm-delete {
+  margin-right: 100px;
+  background-color: rgb(36, 180, 36);
+  color: white;
+}
+.btn-confirm-delete,
+.btn-cancel-delete {
+  width: 70px;
+  border: none;
+  outline: none;
+}
+.confirm-delete h2 {
+  margin-bottom: 15px;
+}
+.Spinner {
+  text-align: center;
+  margin-top: 100px;
+}
